@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Banyumas</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Biodata.html">Biodata</a></li>
+            <li><a href="bukutamu.php">Buku Tamu</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="column">
+            <div class="form">
+                <section id="box-profile">
+                <div class="description">
+                <h2>Wisata Banyumas</h2><br>
+                    <p>Banyumas merupakan salah satu kabupaten yang berada di provinsi Jawa Tengah,Indonesia. Ibu kota dari banyumas 
+                    yaitu Purwokerto. Di kabupaten Banyumas sendiri terdapat beraneka wisata alam,yakni Wisata Baturaden,Telaga Sunyi,
+                    Curug,dan Wisata Hutan Pinus. Lokasi tersebut rata-rata terdapat di Kawasan Baturraden.
+                    </p>
+                </div>
+                <div class="img-profile">
+                    <div class="photo" style="background-image:url(assets/img/batur1.jpg)"></div>
+                </div>
+                <div class="information">
+                    <div class="data">
+                        <p class="field">Nama Wisata</p>
+                        <p class="text-gray">Lokawisata Baturraden</p>
+                    </div>
+                    <div class="data">
+                        <p class="field">Lokasi</p>
+                        <p class="text-gray">Baturraden</p>
+                    </div>
+                    <div class="data">
+                        <p class="field">Buka</p>
+                        <p class="text-gray">07.00 - 16.00</p>
+                    </div>
+                    <input id='show_hide1' type='button5' value='Harga Tiket' onclick="toggle1()" "></button>
+                        <span id='btn' style='display:none'>Rp.20.000 hingga Rp.25.000</span>
+                </div>
+                <script>
+                        function toggle1() {
+                            var x = document.getElementById('btn')
+                            var y = document.getElementById('show_hide1')
+                                if (y.value=='Harga Tiket') {
+                                    x.style.display = 'block'
+                                    y.value='Harga Tiket Lokawisata'
+                                } else {
+                                          x.style.display = 'none'
+                                     y.value='Harga Tiket'            
+                                }
+                        }
+                </script>
+    </section>
+        <div class="row">
+            <div class="column">
+                <section id="box-profile">
+                    <div class="description">
+                        <h2>Curug</h2><br>
+                        <p>Curug merupakan sebutan untuk sebuah air terjun yang berukuran kecil dan memiliki ketinggian
+                             yang rendah yang mudah dicapai.Di Banyumas terdapat banyak curug,seperti Curug Jenggala,
+                              Curug Bayan, Curug Cipendok,dll. Salah satu curug yang ramai dikunjungi yaitu Curug Jenggala,
+                              yang terletak dikawasan Baturraden.
+                        </p>
+                        </div>
+                        <div class="img-profile">
+                            <div class="photo" style="background-image:url(assets/img/curug1.jpg)"></div>
+                        </div>
+                        <div class="information">
+                            <div class="data">
+                                <p class="field">Nama Wisata</p>
+                                <p class="text-gray">Curug Jenggala</p>
+                            </div>
+                            <div class="data">
+                                <p class="field">Lokasi</p>
+                                <p class="text-gray">Baturraden</p>
+                            </div>
+                            <div class="data">
+                                <p class="field">Buka</p>
+                                <p class="text-gray">07.00 - 1.700</p>
+                            </div>
+                        <input id='show_hide2' type='button4' value='Harga Tiket' onclick="toggle2()" "></button>
+                        <span id='btn1' style='display:none'>Rp.5000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function toggle2() {
+                var x = document.getElementById('btn1')
+                var y = document.getElementById('show_hide2')
+                    if (y.value=='Harga Tiket') {
+                        x.style.display = 'block'
+                        y.value='Harga Tiket Curug'
+                    } else {
+                              x.style.display = 'none'
+                         y.value='Harga Tiket'            
+                    }
+            }
+        </script>
+    </section>
+    <div class="row">
+        <div class="column">
+            <section id="box-profile">
+                <div class="description">
+                    <h2>Telaga Sunyi</h2><br>
+                    <p>
+                        Telaga Sunyi merupakan salah satu wisata yang berada di Banyumas,yakni terletak di kawasan Baturraden.
+                        Tempat ini menjadi istimewa karena kesejukan udara dan keindahan alami dari ekosistem yang belum banyak 
+                        tersentuh manusia.
+                    </p>
+                    </div>
+                    <div class="img-profile">
+                        <div class="photo" style="background-image:url(assets/img/telaga.jpg)"></div>
+                    </div>
+                    <div class="information">
+                        <div class="data">
+                            <p class="field">Nama Wisata</p>
+                            <p class="text-gray">Telaga Sunyi</p>
+                        </div>
+                        <div class="data">
+                            <p class="field">Lokasi</p>
+                            <p class="text-gray">Baturraden</p>
+                        </div>
+                        <div class="data">
+                            <p class="field">Buka</p>
+                            <p class="text-gray">07.00 - 17.00</p>
+                        </div>
+                        <input id='show_hide3' type='button9' value='Harga Tiket' onclick="toggle3()""></button>
+                        <span id='btn5' style='display:none'>Rp.10.000 hingga Rp.15.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggle3() {
+            var x = document.getElementById('btn5')
+            var y = document.getElementById('show_hide3')
+                if (y.value=='Harga Tiket') {
+                    x.style.display = 'block'
+                    y.value='Harga Tiket Telaga '
+                } else {
+                          x.style.display = 'none'
+                     y.value='Harga Tiket'            
+                }
+        }
+    </script>
+</section>
+<div class="row">
+    <div class="column">
+        <section id="box-profile">
+            <div class="description">
+                <h2>The Village</h2><br>
+                <p>
+                    The Village Baturraden Purwokerto merupakan Family City Park
+                    yang berlokasi di Rempoah, Kecamatan Baturraden. Taman rekreasi
+                    yang hadir dengan gaya bangunan unik klasik dan elegan ala Eropa. 
+                    Konsep utamanya edukasi seputar dunia kesenian, pendidikan, budaya, dan hiburan.
+                </p>
+                </div>
+                <div class="img-profile">
+                    <div class="photo" style="background-image:url(assets/img/village.jpg)"></div>
+                </div>
+                <div class="information">
+                    <div class="data">
+                        <p class="field">Nama Wisata</p>
+                        <p class="text-gray">The Village</p>
+                    </div>
+                    <div class="data">
+                        <p class="field">Lokasi</p>
+                        <p class="text-gray">Baturraden</p>
+                    </div>
+                    <div class="data">
+                        <p class="field">Buka</p>
+                        <p class="text-gray">08.00 - 17.00</p>
+                    </div>
+                    <input id='show_hide4' type='button4' value='Harga Tiket' onclick="toggle4()" "></button>
+                        <span id='btn3' style='display:none'>Rp.10.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function toggle4() {
+        var x = document.getElementById('btn3')
+        var y = document.getElementById('show_hide4')
+            if (y.value=='Harga Tiket') {
+                x.style.display = 'block'
+                y.value='Harga Tiket The Village'
+            } else {
+                      x.style.display = 'none'
+                 y.value='Harga Tiket'            
+            }
+    }
+</script>
+</section>
+<footer>    
+ 
+	<!-- id hasil -->
+	<div id="hasil"></div>
+</footer>	
+<script type="text/javascript">	
+    // membuat function tampilkan_nama
+    function tampilkan_nama(){
+        document.getElementById("hasil").innerHTML = "<p>Arya Bagus Isdiarto / A11.2021.13353</p>";
+    }
+</script>
+    </body>
+</html>
